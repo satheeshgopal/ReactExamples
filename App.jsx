@@ -5,8 +5,10 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <nav>
+                <nav className="list">
                     <Link to="/HelloUser">Example.1.Hello User - react routing and Props</Link>
+                    <Link to="/IncrementCount">Example.2.Increment Count - react state </Link>
+                    <Link to="/UserInput">Example.3.User Input - To do List </Link>
                 </nav>               
             </div>
         );
