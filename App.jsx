@@ -9,6 +9,7 @@ class App extends React.Component {
                     <Link to="/HelloUser">Example.1.Hello User - react routing and Props</Link>
                     <Link to="/IncrementCount">Example.2.Increment Count - react state </Link>
                     <Link to="/UserInput">Example.3.User Input - To do List </Link>
+                    <Link to="/InlineStyles">Example.4.InlineStyles - Refs </Link>
                 </nav>               
             </div>
         );
